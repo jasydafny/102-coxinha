@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+h1{
+    color: violet;
+    text-align: center;
+    font-weight: bold;
+}
+
+header{ /*flexibilidade*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: violet;
+}
+
+header img{
+    width: 6vw; /* irá se ajustar de acordo com o tamanhio da sua tela*/
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    margin-left: 15px;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text h2, .text p{
+    padding: 10px;
+    margin: 2px, 10px, 2px, 10px; /*top right bottom left*/
+    color: #f44242;
+}
+
+.text p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.receita{
+    font-size: 11pt;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-top: 10px;
+    }
+
+
+
+
