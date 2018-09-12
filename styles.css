@@ -8,6 +8,10 @@ h1{
     font-weight: bold;
 }
 
+p{
+    font-size: 1,5em;
+}
+
 header{ /*flexibilidade*/
     display: flex;
     justify-content: space-between;
@@ -51,8 +55,41 @@ aside{
     letter-spacing: 1px;
     margin-left: 15px;
     margin-top: 10px;
-    }
+    justify-content:}
+
+
+.tutorial p: :last-of-type{
+    font-size: 1.5em;
+}
+
+.receita img{
+    border: 2px solid red;
+}
+
+.tuto{
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+
+.tuto *:nth-child(n){
+    width:400px;
+    height:200px;
+}
 
 
 
+nav div{
+    text-align: center;
+    font-weight: border;
+    color: violet;
+    border: 2px solid red;
+    width: 50%;
+    padding: 15px 0;
+}
 
+body>nav{
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+}
